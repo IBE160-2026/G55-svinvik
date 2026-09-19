@@ -59,3 +59,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Rådata med ekte personnavn – skal aldri inn i det åpne repoet
+*Ukeplan*.pdf
+*.docx
