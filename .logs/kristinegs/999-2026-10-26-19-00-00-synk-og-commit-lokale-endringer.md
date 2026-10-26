@@ -51,3 +51,18 @@ Forkaste forsøket på å bruke GitHub CLI for issues i sesjonslogg-skillen, og 
 
 ### Åpne punkter
 - `CLAUDE.md` nevner fortsatt `book issues` i Sesjonslogg-seksjonen; bør oppdateres til `issues.md` så den stemmer med skillen.
+
+## 2026-10-26 kl. 20:03 — KristineGS
+
+### Oppgave
+Oppdatere `CLAUDE.md` så den stemmer med sesjonslogg-skillen, committe og pushe.
+
+### Plan
+- Endre Sesjonslogg-seksjonen i `CLAUDE.md` fra `book issues` til `issues.md`.
+
+### Resultat
+- `CLAUDE.md` oppdatert, commit `6c2e311`. Løser åpent punkt i `issues.md` (CLAUDE.md nevnte `book issues`).
+- Pushet til `origin/main`.
+
+### Åpne punkter
+Ingen.
