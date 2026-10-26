@@ -92,6 +92,15 @@ agentopprettede punkter har etiketten `Agent` (`agent`).
 5. Issue-numre er globale og monotone. Ved en revisjonskonflikt: hent issuet på
    nytt, kontroller at du fortsatt bør endre det, og prøv mot fersk revisjon.
 
+## Commit loggfila (alltid)
+
+Når loggfila er skrevet eller oppdatert, **commit den med en gang** — ellers blir loggfilene liggende ukommittert og kommer ut av sync med repoet.
+
+- Stage **kun** loggfila/-filene i `.logs/<bruker-slug>/` (`git add -- <sti>`), aldri `git add .` eller `-A` — andre ukommitterte endringer i arbeidskatalogen skal ikke dras med.
+- Egen commit med beskrivende melding, f.eks. `Logg sesjon: <tittel>`, avsluttet med eventuell attribusjonslinje økten krever.
+- Gjør dette også når økten ellers ikke committer noe. Push ikke automatisk; det avgjør brukeren.
+- Er det en merge-/rebase-konflikt eller noe annet som hindrer commit, si fra i sluttoppsummeringen i stedet for å tvinge den gjennom.
+
 ## Forankring i CLAUDE.md/AGENTS.md
 
 Sjekk ved hver bruk om prosjektets rot-`CLAUDE.md` eller `AGENTS.md` refererer til denne skillen (`sesjonslogg`). Gjør ingen av dem det, **legg referansen inn** — det er den instruksen som sørger for at fremtidige økter i prosjektet faktisk logger; skill-beskrivelsen alene er ingen garanti for trigging.

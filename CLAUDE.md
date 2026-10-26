@@ -28,3 +28,7 @@ Key constraints from the brief worth keeping in mind while building:
 - `_bmad/` — the installed BMAD method framework (v6.12.0, modules `core`, `bmm`, `cis`) that drives the planning/build skills listed below. `_bmad/config.toml` and `_bmad/bmm/config.yaml` are installer-managed (regenerated on install, treat as read-only); durable overrides belong in `_bmad/custom/config.toml` (committed) or `_bmad/custom/config.user.toml` (gitignored, personal).
 - `.claude/skills/` — the BMAD skills exposed to Claude Code (agent personas Mary/John/Sally/Winston/Amelia for analyst/PM/UX/architect/dev roles, plus brief/PRD/architecture/epics/sprint-planning/build/review/retrospective workflows). This project is meant to be driven through these skills rather than ad hoc prompting — e.g. use `bmad-prd` to produce the PRD, `bmad-architecture` for architecture decisions, `bmad-create-epics-and-stories` → `bmad-sprint-planning` → `bmad-build` to move from requirements to implementation, and `bmad-code-review`/`bmad-retrospective` afterward.
 - `README.md` — minimal course/group identification (course IBE160, group member Kristine Green Svinvik).
+
+## Sesjonslogg
+
+**Logg sesjonen.** Når en oppgave/økt avsluttes — før sluttoppsummeringen — bruk `sesjonslogg`-skillen: den logger Oppgave + Plan + Resultat + åpne punkter per bruker i `.logs/<bruker>/` og oppretter/lukker åpne punkter som `Agent`-merkede Issues via `book issues`. Loggfila committes alltid (alene, i egen commit) rett etter at den er skrevet.
