@@ -31,6 +31,7 @@ Oppdatere instruksene slik at sesjonslogg-skillen er kjent i prosjektet, og krev
 - `CLAUDE.md`: ny seksjon «Sesjonslogg» med commit-kravet.
 - `CLAUDE.local.md` (gitignored): prompt-logg-kravet peker nå på `sesjonslogg`-skillen.
 - `SKILL.md`: loggfila skal committes alene i egen commit rett etter skriving, ingen automatisk push.
+- Pushet til `origin/main` (`feb57bb..b9d5a43`) etter brukerens godkjenning.
 
 ### Åpne punkter
 Ingen.
