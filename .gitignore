@@ -63,3 +63,8 @@ Thumbs.db
 # Rådata med ekte personnavn – skal aldri inn i det åpne repoet
 *Ukeplan*.pdf
 *.docx
+
+# Vurderingsveiledning (kursmateriale, ikke del av applikasjonen)
+.docs/assessment_guide_ibe160.pdf
+.claude/skills/ibe160-vurderingsveiledning/
+CLAUDE.local.md
