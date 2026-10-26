@@ -35,3 +35,19 @@ Oppdatere instruksene slik at sesjonslogg-skillen er kjent i prosjektet, og krev
 
 ### Åpne punkter
 Ingen.
+
+## 2026-10-26 kl. 20:02 — KristineGS
+
+### Oppgave
+Forkaste forsøket på å bruke GitHub CLI for issues i sesjonslogg-skillen, og hente nye endringer fra GitHub.
+
+### Plan
+- Forkaste de to upushede gh-commitene med `git reset --hard be4241e`.
+- `git fetch` + `git pull`.
+
+### Resultat
+- gh-endringene (aldri pushet) er forkastet.
+- Pull (fast-forward, ingen konflikter) hentet `bef8730`: sesjonslogg-skillen bruker nå `.logs/<bruker>/issues.md` i stedet for `book issues`, og har strengere commit-regel for loggfila.
+
+### Åpne punkter
+- `CLAUDE.md` nevner fortsatt `book issues` i Sesjonslogg-seksjonen; bør oppdateres til `issues.md` så den stemmer med skillen.
