@@ -31,4 +31,4 @@ Key constraints from the brief worth keeping in mind while building:
 
 ## Sesjonslogg
 
-**Logg sesjonen.** Når en oppgave/økt avsluttes — før sluttoppsummeringen — bruk `sesjonslogg`-skillen: den logger Oppgave + Plan + Resultat + åpne punkter per bruker i `.logs/<bruker>/` og oppretter/lukker åpne punkter som `Agent`-merkede Issues via `book issues`. Loggfila committes alltid (alene, i egen commit) rett etter at den er skrevet.
+**Logg sesjonen.** Når en oppgave/økt avsluttes — før sluttoppsummeringen — bruk `sesjonslogg`-skillen: den logger Oppgave + Plan + Resultat + åpne punkter per bruker i `.logs/<bruker>/`, fører åpne punkter i `.logs/<bruker>/issues.md` og committer loggfilene (alene, i egen commit) rett etter at de er skrevet.
